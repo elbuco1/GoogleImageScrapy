@@ -1,7 +1,12 @@
+# perso
 import src.utils as ut
 
+# system
 import sys
 import json 
+
+# external
+import scrapy
 
 def main():
     args = sys.argv
