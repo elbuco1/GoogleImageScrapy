@@ -34,7 +34,7 @@ requirements: test_environment
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 
 scrap:
-	$(PYTHON_INTERPRETER) src/scraping/scrap.py $(PROJECT_PARAMS) $(SCRAP_PARAMS)
+	$(PYTHON_INTERPRETER) src/selenium/scrap.py $(PROJECT_PARAMS) $(SCRAP_PARAMS)
 
 
 ## Delete all compiled Python files
